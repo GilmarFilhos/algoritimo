@@ -1,0 +1,20 @@
+programa
+{
+	funcao inicio()
+	{
+		inteiro num1, num2, dif
+		logico eMaior, result
+
+		escreva("Digite um numero: ")
+		leia(num1)
+
+		escreva("Digite outro numero: ")
+		leia(num2)
+
+		eMaior = num1 > num2
+		dif = num1 - num2
+		result = eMaior e (dif > 10)
+
+		escreva("A expressão é ", result)
+	}
+}
